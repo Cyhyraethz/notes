@@ -1,6 +1,6 @@
-## What is an “interpreted” language?
+### What is an “interpreted” language?
 
-## What is IRB?
+### What is IRB?
 
 ## What are Objects?
 
