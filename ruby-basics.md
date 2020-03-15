@@ -1,4 +1,4 @@
-## Ruby Basics
+# Ruby Basics
 
 ### What is an “interpreted” language?
 
