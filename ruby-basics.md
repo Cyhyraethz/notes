@@ -36,13 +36,31 @@ Classes are abstract descriptions of a category or type of thing. They define wh
 
 ## What are Blocks?
 
+Blocks are a way of building up a set of instructions for use elsewhere. They usually start with the keyword _do_ and end with the keyword _end_. This form is always acceptable. For example...
+
+```
+5.times do
+  puts "Hello, World!"
+end
+```
+
+When a block contains just a single instruction the alternate markers { and } are often used to begin and end the block. For example...
+
+```
+5.times{ puts "Hello, World!" }
+```
+
 <br>
 
 ## What is an Array?
 
+An array is a zero-based number-indexed list. They can grow and shrink, and there are many useful methods that can be called on them, such as sort, each, split, join, collect, first, last, and shuffle.
+
 <br>
 
 ## What is an Iterator?
+
+
 
 <br>
 
