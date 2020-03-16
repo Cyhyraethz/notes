@@ -66,12 +66,25 @@ An array is a zero-based number-indexed list. They can grow and shrink, and ther
 
 ## What are hashes?
 
+A hash is an unordered collection where data is organized into key/value pairs. For example...
+```
+produce = {"apples" => 3, "oranges" => 1, "carrots" => 12}
+puts "There are #{produce['oranges']} oranges in the fridge."
+```
+The _key_ is used as the address and the _value_ is the data at that address. The key/value pairs are linked by the => symbol which is called a _rocket_.
+
+Hashes start with a curly bracket {, have zero or more entries made up of a _key_, a rocket, and a _value_ separated by commas, then end with a closing curly bracket }.
+
 <br>
 
 ## What is a library?
 
+
+
 <br>
 
 ## What is a gem?
+
+
 
 <br>
