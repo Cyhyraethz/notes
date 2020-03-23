@@ -36,17 +36,17 @@ Classes are abstract descriptions of a category or type of thing. They define wh
 
 ## What are Blocks?
 
-Blocks are a way of building up a set of instructions for use elsewhere. They usually start with the keyword _do_ and end with the keyword _end_. This form is always acceptable. For example...
+Blocks are a way of building up a set of instructions for use elsewhere. They usually start with the keyword `do` and end with the keyword `end`. This form is always acceptable. For example...
 
-```
+```ruby
 5.times do
   puts "Hello, World!"
 end
 ```
 
-When a block contains just a single instruction the alternate markers { and } are often used to begin and end the block. For example...
+When a block contains just a single instruction the alternate markers `{` and `}` are often used to begin and end the block. For example...
 
-```
+```ruby
 5.times{ puts "Hello, World!" }
 ```
 
@@ -54,37 +54,48 @@ When a block contains just a single instruction the alternate markers { and } ar
 
 ## What is an Array?
 
-An array is a zero-based number-indexed list. They can grow and shrink, and there are many useful methods that can be called on them, such as sort, each, split, join, collect, first, last, and shuffle.
+An array is a zero-based number-indexed list. They can grow and shrink, and there are many useful methods that can be called on them, such as `sort`, `each`, `split`, `join`, `collect`, `first`, `last`, and `shuffle`.
 
 <br>
 
 ## What is an Iterator?
 
-
+A method that behaves similarly to a loop and is always followed by `do...end`. For example...
+```ruby
+3.times do
+  puts 'Hip-Hip-Hooray!'
+end
+```
 
 <br>
 
 ## What are hashes?
 
-A hash is an unordered collection where data is organized into key/value pairs. For example...
-```
+A hash is an unordered collection where data is organized into `key`/`value` pairs. For example...
+```ruby
 produce = {"apples" => 3, "oranges" => 1, "carrots" => 12}
 puts "There are #{produce['oranges']} oranges in the fridge."
 ```
-The _key_ is used as the address and the _value_ is the data at that address. The key/value pairs are linked by the => symbol which is called a _rocket_.
+The `key` is used as the address and the `value` is the data at that address. The key/value pairs are linked by the => symbol which is called a _rocket_.
 
-Hashes start with a curly bracket {, have zero or more entries made up of a _key_, a rocket, and a _value_ separated by commas, then end with a closing curly bracket }.
+Hashes start with a curly bracket `{`, have zero or more entries made up of a `key`, a rocket, and a `value` separated by commas, then end with a closing curly bracket `}`.
 
 <br>
 
 ## What is a library?
 
+A collection of precompiled routines that a program can use.
 
+Nearly all Ruby libraries are released in the form of a `gem`.
+
+Some are released as archived directories of source code.
 
 <br>
 
 ## What is a gem?
 
+A packaged library or application that can be installed with a tool called `RubyGems`.
 
+`RubyGems` is a Ruby packaging system designed to facilitate the creation, sharing, and installation of libraries (in some ways, it is a distribution packaging system similar to, say, `apt-get`, but targeted at Ruby software).
 
 <br>
